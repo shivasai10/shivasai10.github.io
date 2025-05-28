@@ -4,25 +4,18 @@
   <meta charset="UTF-8">
   <title>Shivasai10 | DevOps Engineer</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', sans-serif;
       background: #f5f7fa;
       color: #333;
     }
-
     header {
       background: linear-gradient(to right, #1d3557, #457b9d);
       color: white;
       text-align: center;
       padding: 50px 20px;
     }
-
     header img {
       border-radius: 50%;
       width: 140px;
@@ -31,59 +24,37 @@
       border: 5px solid #fff;
       margin-bottom: 20px;
     }
-
-    header h1 {
-      font-size: 32px;
-    }
-
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-    }
-
+    header h1 { font-size: 32px; }
+    header p { font-size: 18px; margin-top: 10px; }
     nav {
       background: #1d3557;
       padding: 10px;
       text-align: center;
     }
-
     nav a {
       color: white;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
-
     section {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
     }
-
     h2 {
       color: #1d3557;
       margin-bottom: 20px;
     }
-
-    .resume-section {
+    .resume-section, .experience-section {
       background: #f1f1f1;
       padding: 30px;
       border-radius: 10px;
+      margin-bottom: 40px;
     }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .highlight {
-      font-weight: bold;
-    }
-
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 10px; }
+    .highlight { font-weight: bold; }
     footer {
       text-align: center;
       padding: 20px;
@@ -91,13 +62,23 @@
       color: white;
       margin-top: 40px;
     }
+    .link-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #457b9d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
 
   <!-- Header Section -->
   <header>
-    <img src="your-photo.jpg" alt="Your Photo">
+    <img src="profile.jpg" alt="Your Photo">
     <h1>Shivasai Nadiri</h1>
     <p>DevOps Engineer | AWS & Kubernetes | Terraform & CI/CD Expert</p>
   </header>
@@ -106,6 +87,7 @@
   <nav>
     <a href="#about">About</a>
     <a href="#resume">Resume</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -127,4 +109,38 @@
         <li><span class="highlight">Databases:</span> MySQL, Oracle</li>
         <li><span class="highlight">Cloud Platforms:</span> AWS, Azure, Google Cloud</li>
         <li><span class="highlight">CI/CD Tools:</span> Jenkins, GitHub Actions, Azure Pipelines</li>
-        <li><span class="highlight">Infrastructure as Code:</span> Terra
+        <li><span class="highlight">Infrastructure as Code:</span> Terraform, CloudFormation</li>
+        <li><span class="highlight">Monitoring:</span> Prometheus, Grafana, CloudWatch</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="experience-section">
+      <ul>
+        <li><strong>Peapod Digital Labs</strong><br>Sr DevOps Engineer | Mar 2021 – Dec 2022<br><em>Project:</em> AWS & Kubernetes Infrastructure Automation</li>
+        <li><strong>Splunk</strong><br>Sr DevOps Engineer | Mar 2021 – Dec 2022<br><em>Project:</em> Cloud Infrastructure Automation</li>
+        <li><strong>Confidential Client</strong><br>Sr DevOps Engineer | Present<br><em>Project:</em> Secure Cloud Architecture & Business Continuity</li>
+        <li><strong>JC Penney</strong><br>Sr DevOps Engineer | Jul 2018 – Feb 2021<br><em>Project:</em> Azure Kubernetes Hybrid Infrastructure</li>
+        <li><strong>Gigstart</strong><br>Sr DevOps Engineer | Jun 2016 – Jul 2018<br><em>Project:</em> AWS Infra Migration & Monitoring</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <a class="link-button" href="mailto:your.email@example.com">📧 Email Me</a>
+    <a class="link-button" href="https://www.linkedin.com/in/your-profile" target="_blank">🔗 LinkedIn</a>
+    <a class="link-button" href="https://github.com/shivasai10" target="_blank">💻 GitHub</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2024 Shivasai Nadiri. All rights reserved.
+  </footer>
+
+</body>
+</html>
